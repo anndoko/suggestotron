@@ -6,4 +6,6 @@ Rails.application.routes.draw do
      delete 'downvote'
    end
  end
+
+ get "about/index"
 end
